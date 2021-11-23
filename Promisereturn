@@ -1,0 +1,10 @@
+//Returning a promise//
+async function f() {
+  return Promise.resolve(1);
+}
+
+f().then(alert); // 1
+
+//Set TimeOut
+
+//Async with getRandom function
